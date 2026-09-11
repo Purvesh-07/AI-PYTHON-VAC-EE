@@ -1,8 +1,7 @@
-
+# Enter and the values
 ------------------------------------------------
 INPUT:-
 
-#enter and the values
 a=int(input('enter the value\n'))
 b=int(input('enter the value '))
 c = a + b
@@ -13,13 +12,13 @@ enter the value
 3
 enter the value 5
 8
-------------------------------------------------
 
+------------------------------------------------
+# Enter the value and add them
 ------------------------------------------------
 
 INPUT:-
 
-# enter the value and add them
 a=int(input('enter the value\n'))
 b=int(input('enter the value '))
 c = a + b
@@ -30,13 +29,13 @@ OUTPUT:-
 enter the value 4
 enter the value 6
 the result is :  10
-------------------------------------------------
 
+------------------------------------------------
+# Find the last digit
 ------------------------------------------------
 
 INPUT:-
 
-# find the last digit
 no = int(input("Enter the value: "))
 res = no%10
 print(res)
@@ -45,12 +44,12 @@ OUTPUT:-
 
 Enter the value: 1234
 4
-------------------------------------------------
 
+------------------------------------------------
+# find sum of two digit
 ------------------------------------------------
 INPUT:-
 
-# find sum of two digit
 no = int(input("enter the value: "))
 n1 = no%10
 n2 = no//10
@@ -61,12 +60,12 @@ OUTPUT:-
 
 enter the value: 45
 9
-------------------------------------------------
 
+------------------------------------------------
+# sum of 6 digit 123456
 ------------------------------------------------
 INPUT:-
 
-# sum of 6 digit 123456
 no = int(input("enter the value: "))
 n1 = no % 10  # 6
 no = no // 10 # 1234
@@ -92,8 +91,6 @@ enter the value: 123456
 ------------------------------------------------
 INPUT:-
 
-# Write your solution here
-
 a=int(input())
 b=int(input())
 a= a+b
@@ -101,4 +98,11 @@ b=a-b
 a=a-b
 print(a)
 print(b)
+
+OUTPUT:-
+2
+5
+5
+2
+
 ------------------------------------------------
