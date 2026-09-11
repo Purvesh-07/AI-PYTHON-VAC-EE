@@ -1,1 +1,17 @@
+------------------------------------------------
+#Matplotlib
+------------------------------------------------
+
+pip install matplotlib
+
+import matplotlib.pyplot as plt
+t = np.linspace(0, 1, 1000)
+f = 5
+signal = np.sin(2 * np.pi *f *t)
+plt.plot(t, signal)
+plt.xlabel("Time (seconds)")
+plt.ylabel("Amplitude")
+plt.title("5 Hz Sine Wave")
+plt.show()
+------------------------------------------------
 
