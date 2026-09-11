@@ -1,1 +1,79 @@
+#Generative AI 
+
+1)
+-Act like a strict manager to ai chatbot 
+-Hi Chatgpt act like a 3rd yr student (because ai is tend to give false information)
+-Because of similarity search algorithm 
+-Use experience based prompt search 
+e.g. hi gpt, act as 3rd yr electronics engineer student and explain ohms law 
+
+
+2)
+-Bricks teaching ai chrome extension
+-open in chrome
+-open google docs
+-click on small symbol of Bricks on bottom right, then create anything you want!
+
+3) AI FOR PROBLEM SOLVING 
+-problem:- a 12v source is connected to two resistors: *R1 = 2k ohm *R2 = 4k ohm connected in series. calculate total resistance, current through the circuit, voltage across each resistor and power consumed by each resistor. show the complete calculation.
+
+4) ChatGPT for electronic project ideas
+-e.g.:- suggest 10 iot project ideas for electronics engineering students using arduino, sensors and python. divide them into beginner, intermediate and advanced levels. smart energy monitoring system
+      ~TYPE:- select **IoT Smart Home Automation & Energy Optimizer**  
+      ~THEN:- explain the architecture of this project
+      ~THEN:- give me the required hardware components
+      ~THEN:- give me the software requirements
+      ~THEN:- divide the project into 5 development stages 
+
+This is the template for every electronic projects to develop through AI.
+
+5) Microsoft Copilot - for problem(bug) solving
+-e.g. :- Calculate current using ohm's law
+         voltage = 12 
+         resistance = 1000
+         current = voltage * resistance
+         print("current=",current)
+       ~THEN:- find the logical error in this code and explain how to fix it
+
+6) Google Gemini - for image making  and for information figuring 
+-e.g.:-Hi Gemini, Act as 10 yr experienced electrical engineer and explain the working principle of an LDR sensor, its applications, advantages and limitations.
+
+
+
+7) Claude AI - for long technical content 
+-e.g.:- I am building an iot-based temperature monitoring system. analyse the following project description and identify missing components, technical risks, testing requirements and possible improvements. 
+
+
+8) Perplexity AI - for research purpose
+-e.g.:- 
+
+
+9) Deepseek AI - for designing and coding (but never share personal data)
+
+
+10) AI for Resume Building 
+-e.g.:- AI for Resume Building 
+Give students a raw profile: 
+Electronics Engineering student 
+Python 
+Arduino 
+MATLAB 
+IoT 
+Basic PCB design 
+Mini project: Smart Home Automation 
+Ask AI: 
+Create a one-page ATS-friendly resume for an Electronics Engineering student 
+applying for an IoT Engineer internship. 
+Then improve it. 
+Teach Resume Sections 
+● Name & Contact 
+● Career Objective/Summary 
+● Education 
+● Technical Skills 
+● Projects 
+● Internships 
+● Certifications 
+● Achievements 
+● Extra-curricular activities
+
 
