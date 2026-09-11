@@ -1,1 +1,62 @@
+------------------------------------------------
+#NUMPY LIBRARY
+------------------------------------------------
 
+pip install numpy
+
+import numpy
+arr = numpy.array([1, 2, 3, 4, 5])
+print(arr)
+
+OUTPUT:-
+[1 2 3 4 5]
+
+------------------------------------------------
+
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+
+OUTPUT:-
+[1 2 3 4 5]
+------------------------------------------------
+
+a = np.zeros((2,3))
+print(a)
+
+OUTPUT:-
+[[0. 0. 0.]
+ [0. 0. 0.]]
+------------------------------------------------
+
+b = np.ones((1,2))
+print(b)
+
+OUTPUT:-
+[[1. 1.]]
+------------------------------------------------
+
+import numpy as np
+voltage = np.array([1, 2, 3, 4, 5])
+R = 100
+current = voltage / R
+print("Voltage:", voltage)
+print("Current:", current)
+
+OUTPUT:-
+Voltage: [1 2 3 4 5]
+Current: [0.01 0.02 0.03 0.04 0.05]
+------------------------------------------------
+import numpy as np
+temperature = np.array([25.2, 26.1, 25.8, 27.3, 26.9, 28.1])
+print("Minimum:", np.min(temperature))
+print("Maximum:", np.max(temperature))
+print("Average:", np.mean(temperature))
+print("Standard Deviation:", np.std(temperature))
+
+OUTPUT:-
+Minimum: 25.2
+Maximum: 28.1
+Average: 26.566666666666663
+Standard Deviation: 0.9723968097209885
+------------------------------------------------
