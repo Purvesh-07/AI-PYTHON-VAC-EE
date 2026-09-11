@@ -1,1 +1,153 @@
+---------------------------------------------------------------
+# String in Python
+---------------------------------------------------------------
+Finding Substrings:
+
+We can use the following 4 methods
+
+For forward direction:
+find()
+
+For backward direction:
+rfind()
+
+Returns index of first occurrence of the given substring. If it is not available then we will get -1
+
+Eg:
+
+s="Learning Python is very easy from Ashish Sir"
+
+print(s.find("Python")) #9
+
+print(s.find("Java")) # -1
+
+print(s.find("r"))#3
+
+print(s.rfind("r"))#43
+------------------------------------------------
+
+
+------------------------------------------------
+# Counting substring in the given String:
+------------------------------------------------
+We can find the number of occurrences of substring present in the given string by using count() method.
+
+1. s.count(substring) ==> It will search through out the string 
+
+2. s.count(substring, begin, end) ==> It will search from begin index to end-1 index
+
+Eg:
+
+s="abcabcabcabcadda"
+
+print(s.count('a'))
+
+print(s.count('ab'))
+
+print(s.count('a',3,10))
+------------------------------------------------
+
+
+-----------------------------------------------------
+# Splitting of Strings:
+-----------------------------------------------------
+We can split the given string according to specified seperator by using split() method.
+
+1=s.split(seperator)
+
+The default seperator is space. The return type of split() method is List
+
+Eg1:
+s="Learning Python is very easy from Ashish Sir"
+1=s.split()
+for x in 1:
+print(x)
+
+Eg2:
+S="22-02-2022"
+1=s.split('-')
+for x in 1:
+print(x)
+------------------------------------------------
+
+------------------------------------------------
+# Joining of Strings:
+------------------------------------------------
+We can join a group of strings (list or tuple) wrt the given seperator.
+
+s=seperator.join(group of strings)
+
+Eg:
+1=['Nagpur', 'Pune', 'Mumbai', 'Delhi']
+s=':'.join(1)
+print(s)
+------------------------------------------------
+
+------------------------------------------------
+# Changing case of a String:
+------------------------------------------------
+We can change case of a string by using the following methods.
+
+1. upper() =>To convert all characters to upper case 
+2. lower() =>To convert all characters to lower case 
+3. swapcase() =>converts all lower case characters to upper case and all upper case characters to lower case
+4. title() =>To convert all character to title case. i.e first character in every word should be upper case and all remaining characters should be in lower case.
+5. capitalize() =>Only first character will be converted to upper case and all remaining characters can be converted to lower case
+Eg:
+s='learning Python is very Easy from Ashish sir'
+print(s.upper())
+------------------------------------------------
+
+------------------------------------------------
+# Learning python is very easy from ashish sir
+------------------------------------------------
+
+Checking starting and ending part of the string:
+Python contains the following methods for this purpose 
+1. s.startswith(substring)
+2. s.endswith(substring)
+Eg:
+
+s='learning Python is very Easy from Ashish sir'
+print(s.startswith('learning'))
+print(s.endswith('learning'))
+print(s.endswith('sir'))
+------------------------------------------------
+
+------------------------------------------------
+# To check type of characters present in a string:
+------------------------------------------------
+
+Python contains the following methods:
+1) isalnum(): Returns True if all characters are alphanumeric (a to z, A to Z, to9)
+
+2) isalpha(): Returns True if all characters are only alphabet symbols (a to z, A to Z)
+
+3) isdigit(): Returns True if all characters are digits only( 0 to 9)
+
+4) islower(): Returns True if all characters are lower case alphabet symbols
+
+5) isupper(): Returns True if all characters are upper case aplhabet symbols
+
+6) istitle(): Returns True if string is in title case
+
+7) isspace(): Returns True if string contains only spaces
+------------------------------------------------
+
+------------------------------------------------
+# Important Programs
+------------------------------------------------
+Q1. Write a program to reverse the given string
+
+input:-ashish
+output:-hsihsa
+
+1st Way:
+s-input("Enter String: ")
+print(s[::-1])
+
+2nd Way:
+s=input("Enter String: ")
+print(':'.join(reversed(s)))
+------------------------------------------------
 
