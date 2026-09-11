@@ -1,1 +1,82 @@
+------------------------------------------------
+#Pandas Library
+------------------------------------------------
+pip install pandas
 
+#Task 1
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+data = pd.read_csv("sensor_data.csv")
+print("Sensor Data:")
+print(data)
+
+OUTPUT:-
+Sensor Data:
+   Time  Voltage
+0     0     0.20
+1     1     0.35
+2     2     0.51
+3     3     0.72
+4     4     0.95
+5     5     1.20
+6     6     1.40
+7     7     1.65
+8     8     1.82
+9     9     2.00
+------------------------------------------------
+
+#Task 2
+
+voltage = data["Voltage"].to_numpy()
+time = data["Time"].to_numpy()
+print("\nVoltage values:")
+print(voltage)
+
+OUTPUT:-
+Voltage values:
+[0.2  0.35 0.51 0.72 0.95 1.2  1.4  1.65 1.82 2. ]
+------------------------------------------------
+
+#Task 3
+
+minimum_voltage = np.min(voltage)
+maximum_voltage = np.max(voltage)
+average_voltage = np.mean(voltage)
+print("\nVoltage Analysis:")
+print("Minimum Voltage :", minimum_voltage,"V")
+print("Maximum Voltage :", maximum_voltage,"V")
+print("Average Voltage :", round(average_voltage, 2), "V")
+
+OUTPUT:-
+Voltage Analysis:
+Minimum Voltage : 0.2 V
+Maximum Voltage : 2.0 V
+Average Voltage : 1.08 V
+------------------------------------------------
+
+#Task 4
+
+plt.plot(time, voltage, marker="o")
+plt.title("Sensor Voltage vs Time")
+plt.xlabel("Time")
+plt.ylabel("Voltage (V)")
+plt.grid(True)
+plt.show()
+------------------------------------------------
+
+#Task 5
+max_index = np.argmax(voltage)
+
+max_time = time[max_index]
+
+print("\nMaximum Voltage occured at:")
+print("Time :", max_time)
+print("Voltage :", maximum_voltage, "V")
+
+OUTPUT:-
+Maximum Voltage occured at:
+Time : 9
+Voltage : 2.0 V
+------------------------------------------------
