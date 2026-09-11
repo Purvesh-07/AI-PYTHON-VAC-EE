@@ -85,6 +85,5 @@ Learn → Practice → Code → Analyze → Apply to Electronics → Document
 
 👨‍💻 Author
 
-Purvesh Raghatate
-Electronics Engineering Student
-VLSI Design & Technology
+Purvesh Raghatate,
+Electronics Engineering (VLSI Design & Technology)
